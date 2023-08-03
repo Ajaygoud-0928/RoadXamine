@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    display: flex;
+
+}
+
+.login img {
+    width: 750px;
+    height: 675px;
+}
+
+.login-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 15vh;
+    margin-left: 10vh;
+}
+
+.login-details h1 {
+    font-size: 2.5rem;
+}
+
+.login-details p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    width: 20rem;
+    height: 3rem;
+}
+form label{
+    margin-left: 1vh;
+}
+form input[type="email"] {
+    background: #fff url("https://cdn-icons-png.flaticon.com/512/561/561127.png") no-repeat 10px center;
+    background-size: 20px;
+    padding-left: 35px;
+}
+
+form input[type="password"] {
+    background: #fff url("https://cdn-icons-png.flaticon.com/512/631/631906.png") no-repeat 10px center;
+    background-size: 20px;
+    padding-left: 35px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 20rem;
+    height: 3rem;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+form #reset {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    margin-top: -4vh;
+    justify-content: right;
+}
+
+form #reset:hover {
+    color: #555;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
