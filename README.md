@@ -1,6 +1,6 @@
 # RoadXamine
 
-RoadXamine is an innovative project that aims to revolutionize road monitoring through the continuous use of cameras and GPS modules, providing real-time updates to officers and users. This comprehensive solution incorporates a meticulously designed website, powered by React, offering advanced activity tracking and insightful analytics.
+RoadXamine is an innovative project that aims to revolutionize road monitoring through the continuous use of ESP32 camera and Neo6M GPS modules, providing real-time updates to officers and users. This comprehensive solution incorporates a meticulously designed website, powered by React, offering advanced activity tracking and insightful analytics.
 
 ## Directory Structure
 
