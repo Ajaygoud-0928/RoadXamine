@@ -11,7 +11,7 @@ from datetime import datetime,timedelta
 
 ################### MailId details ###################
 email_sender = 'ajayg.bathini@gmail.com'
-email_password = 'nlterizmavzlzhtg'
+email_password = 'enter your password'
 email_reciver = '1602-20-737-310@vce.ac.in'
 
 ################### Mail details ######################
